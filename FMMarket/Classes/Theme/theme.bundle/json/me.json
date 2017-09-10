@@ -1,0 +1,58 @@
+{
+    "datas":{
+        "list":[
+                
+            [
+             {
+             "title":"点击登陆",
+             "icon":"me/me_icon_userface_normal",
+             "push":"FMLoginViewController",
+             "intro":"登陆后您可享受更多特权"
+             }
+            ],
+              
+            [
+             
+             
+             
+                 {
+                 "title":"意见反馈",
+                 "icon":"me/me_icon_log_normal",
+                 "push":"FMFeedbackViewController",
+                 "intro":""
+                 },
+             
+             {
+             "title":"风险提示",
+             "icon":"me/me_icon_tann_normal",
+             "push":"FMDangerTipViewController",
+             "intro":""
+             },
+             
+             {
+             "title":"关于我们",
+             "icon":"me/me_icon_session_info_normal",
+             "push":"FMAboutusViewController",
+             "intro":""
+             },
+             {
+             "title":"最新活动",
+             "icon":"me/me_icon_activity_normal",
+             "push":"FMActivityViewController",
+             "intro":""
+             }
+             
+                 ],
+            [
+             {
+                "title":"设置",
+                "icon":"me/me_icon_setting_normal",
+                "push":"FMSettingViewController",
+                "intro":""
+             }
+             
+             ]
+            
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "datas":{
+        "list":[
+            [
+             {
+             "title":"行情刷新频率",
+             "icon":"",
+             "push":"FMRefreshTimeViewController"
+             },
+             {
+             "title":"K线设置",
+             "icon":"",
+             "push":"FMKLineSetingViewController"
+             }
+            ],
+                [
+                 {
+                 "title":"热点推送",
+                 "icon":"",
+                 "switch":"1",
+                 "push":""
+                 },
+                 {
+                 "title":"清理缓存",
+                 "icon":"",
+                 "push":"",
+                 "intro":""
+                 }
+                 ]
+                ,
+                [
+                 {
+                 "title":"AppStore 评分",
+                 "icon":"",
+                 "push":""
+                 }
+                 ]
+
+            
+        ]
+    }
+}
