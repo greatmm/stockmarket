@@ -1,0 +1,28 @@
+{
+    "datas":{
+        "list":[
+            [
+             {
+             "title":"成交量",
+             "value":"0",
+             "push":""
+             },
+             {
+             "title":"MACD",
+             "value":"1",
+             "push":""
+             },
+             {
+             "title":"KDJ",
+             "value":"2",
+             "push":""
+             },
+             {
+             "title":"RSI",
+             "value":"3",
+             "push":""
+             }
+            ]
+        ]
+    }
+}

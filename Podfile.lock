@@ -1,0 +1,79 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.3):
+    - CocoaLumberjack/Default
+  - EGOCache (2.1.3)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - M80AttributedLabel (1.3.3)
+  - MJRefresh (3.1.12)
+  - Reachability (3.1.1)
+  - SBJson (4.0.5)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SVProgressHUD (1.1.3)
+  - tinyxml (2.1.0)
+  - Toast (2.4)
+  - TYAttributedLabel (2.5.6)
+  - UMengAnalytics (4.1.8)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CocoaLumberjack (~> 2.0.0-rc2)
+  - EGOCache
+  - FMDB (~> 2.5)
+  - M80AttributedLabel (~> 1.3.1)
+  - MJRefresh
+  - Reachability (~> 3.1.1)
+  - SBJson (~> 4.0.1)
+  - SDWebImage (~> 3.7.1)
+  - SVProgressHUD (~> 1.1.2)
+  - tinyxml (~> 2.1.0)
+  - Toast (~> 2.4)
+  - TYAttributedLabel (~> 2.5.1)
+  - UMengAnalytics
+  - UMengSocialCOM (~> 5.2.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  EGOCache: f0295dbe041156acabd39021354ad1045ee49e72
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  M80AttributedLabel: 3bcacb2d85e6c66e32fb930aac2f04eca3974106
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+  SBJson: af3137ccda22be3004487524da0a071c75d4251b
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  tinyxml: 41d718babd106ac5d39d4e98b43c835d3b9080d8
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  TYAttributedLabel: 251d4cb2bf35813815d0ad632b3e56ba626c6b01
+  UMengAnalytics: 6ef66c49bea0779d2ce02a72d862510d97619a7a
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+PODFILE CHECKSUM: 5761291c98bf2e549deb849906300087d22985d0
+
+COCOAPODS: 1.1.1

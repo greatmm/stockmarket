@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Body_Bg_Color</key>
+	<string>0xFFFFFF</string>
+	<key>Body_Grey_Color</key>
+	<string>0xf0f4fa</string>
+	<key>UITableViewCell_SelectView_BackgroundColor</key>
+	<string>0xf5f9fe</string>
+	<key>UITableViewCell_BottomLine_Color</key>
+	<string>0xd5dfe6</string>
+	<key>UITableViewCell_Code_Color</key>
+	<string>0x999999</string>
+	<key>Font_Black_Color</key>
+	<string>0x6f7b82</string>
+	<key>Navigation_Title_Color</key>
+	<string>0xFFFFFF</string>
+	<key>Navigation_BottomLine_Color</key>
+	<string>0xE6E6E6</string>
+	<key>Navigation_Bg_Color</key>
+	<string>0x1b62cc</string>
+	<key>SH</key>
+	<string>0x9ac2fc</string>
+	<key>SZ</key>
+	<string>0xfc9adb</string>
+	<key>HK</key>
+	<string>0xff419f</string>
+	<key>US</key>
+	<string>0xffa341</string>
+</dict>
+</plist>

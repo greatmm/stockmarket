@@ -1,0 +1,53 @@
+//
+//  FMMarket-Prefix.pch
+//  FMMarket
+//
+//  Created by dangfm on 15/8/7.
+//  Copyright (c) 2015年 dangfm. All rights reserved.
+//
+
+#ifndef FMMarket_FMMarket_Prefix_pch
+#define FMMarket_FMMarket_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "SBJson.h"
+#import "FMDBManager.h"
+#import "FMHelper.h"
+#import "FMThemeManager.h"
+#import "FMGlobalDefines.h"
+#import <AFNetworking.h>
+#import "FMHttpRequest.h"
+#import "FMUserDefault.h"
+#import "FMAppDelegate.h"
+#import <UMengAnalytics/UMMobClick/MobClick.h>
+#import "UMessage.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJRefresh/UIScrollView+MJRefresh.h>
+#import "UILabel+stocking.h"
+#import "UIImage+stocking.h"
+#import "UIButton+stocking.h"
+#import "NSString+stocking.h"
+#import "UITextField+stocking.h"
+#import "UISegmentedControl+stocking.h"
+#import <EGOCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "JPUSHService.h"
+#import "UMSocial.h"
+#import "TumblrLikeMenu.h"
+#import "FMLoginViewController.h"
+//#import <AVOSCloud/AVOSCloud.h>
+
+//#ifdef DEBUG
+//static DDLogLevel ddLogLevel = DDLogLevelAll;
+//#else
+//static DDLogLevel ddLogLevel = DDLogLevelInfo;
+//#endif
+
+
+#endif
+
+#endif
