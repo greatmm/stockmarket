@@ -25,7 +25,7 @@
 @implementation FMAppDelegate
 
 +(FMAppDelegate *)shareApp{
-    return [UIApplication sharedApplication].delegate;
+    return (FMAppDelegate *)[UIApplication sharedApplication].delegate;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

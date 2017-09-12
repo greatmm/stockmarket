@@ -94,7 +94,7 @@
     return item;
 }
 
-
+//设置自控制器
 - (void)setUpSubNav{
     NSMutableArray * array = [[NSMutableArray alloc] init];
     [self.tabbars enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
@@ -111,9 +111,7 @@
         UIImage *defaultImage = [UIImage imageNamed:imageName];
         defaultImage = [defaultImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         defaultImage = [UIImage imageWithTintColor:FMTabbarColor blendMode:kCGBlendModeDestinationIn WithImageObject:defaultImage];
-        nav.tabBarItem = [[FMTabBarItem alloc] initWithTitle:title
-                                                       image:defaultImage
-                                               selectedImage:[UIImage imageNamed:imageSelected]];
+        nav.tabBarItem = [[FMTabBarItem alloc] initWithTitle:title image:defaultImage selectedImage:[UIImage imageNamed:imageSelected]];
         nav.tabBarItem.tag = idx;
         NSInteger badge = [item[TabbarItemBadgeValue] integerValue];
         if (badge) {
@@ -125,15 +123,14 @@
 
 }
 
-
+//设置状态栏
 - (void)setUpStatusBar{
     [self.navigationController.navigationBar setTranslucent:YES];
     [self.tabBar setTranslucent:YES];
     self.tabBar.tintColor = [UIColor whiteColor];
     self.tabBar.selectedImageTintColor = FMNavColor;
     UIStatusBarStyle style = UIStatusBarStyleLightContent;
-    [[UIApplication sharedApplication] setStatusBarStyle:style
-                                                animated:NO];
+    [[UIApplication sharedApplication] setStatusBarStyle:style animated:NO];
 }
 
 - (UINavigationController *)currnetNav{

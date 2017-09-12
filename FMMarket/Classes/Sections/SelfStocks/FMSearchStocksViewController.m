@@ -111,9 +111,7 @@
     }
     
     if (!_tableView) {
-        CGRect frame = CGRectMake(0, self.header.frame.origin.y+self.header.frame.size.height,
-                                  UIScreenWidth,
-                                  UIScreenHeight-(self.header.frame.origin.y+self.header.frame.size.height));
+        CGRect frame = CGRectMake(0, self.header.frame.origin.y+self.header.frame.size.height,UIScreenWidth,UIScreenHeight-(self.header.frame.origin.y+self.header.frame.size.height));
         _tableView = [[FMSelfStockTableView alloc] initWithFrame:frame style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
@@ -125,6 +123,7 @@
 
 #pragma mark -
 #pragma mark UI Action
+//
 -(void)clickEditButtonHandle:(UIButton*)bt{
     
 }

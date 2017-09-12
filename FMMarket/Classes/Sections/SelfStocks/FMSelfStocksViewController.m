@@ -125,6 +125,7 @@
 
 #pragma mark -
 #pragma mark UI Create
+//首页顶部选项卡
 -(void)createSegmentViews{
     UISegmentedControl *seg = [UISegmentedControl createWithTitles:@[@"自选股",@"行情"]];
     seg.frame = CGRectMake((UIScreenWidth-seg.frame.size.width)/2,
@@ -272,6 +273,7 @@
 
 #pragma mark -
 #pragma mark UI Action
+//点击选项卡
 -(void)clickSegmentAction:(UISegmentedControl*)seg{
     if (!_marketView) {
         _marketView = [[FMMarketViewController alloc] init];

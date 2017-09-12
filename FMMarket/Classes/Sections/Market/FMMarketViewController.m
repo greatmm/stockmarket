@@ -114,18 +114,15 @@ static NSString *marketUpDownListCacheKey = @"FMMarketViewControllerUpDownListCa
         }
     }
 }
-
+//右侧搜索和刷新按钮
 -(void)createEditButton{
     
-    UIBarButtonItem *refreshBt = [[UIBarButtonItem alloc]
-                                  initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh
-                                  target:self
-                                  action:@selector(clickRefreshButtonHandle:)];
+    UIBarButtonItem *refreshBt = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self
+        action:@selector(clickRefreshButtonHandle:)];
     
     UIBarButtonItem *searchBt = [[UIBarButtonItem alloc]
-                                 initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
-                                 target:self
-                                 action:@selector(clickSearchButtonHandle:)];
+    initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
+    target:self action:@selector(clickSearchButtonHandle:)];
     self.navigationItem.rightBarButtonItems = @[refreshBt,searchBt];
 }
 
@@ -187,12 +184,10 @@ static NSString *marketUpDownListCacheKey = @"FMMarketViewControllerUpDownListCa
 #pragma mark -
 #pragma mark UI Action
 
-
+//点击选项卡
 -(void)clickSegmentAction:(UISegmentedControl*)seg{
     if (seg.selectedSegmentIndex==0) {
         [self.navigationController popViewControllerAnimated:NO];
-        
-        
     }else{
         
     }
